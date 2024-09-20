@@ -1,4 +1,5 @@
-require ( './root.js' );
+require('jsdom-global')();
+//const jsdom = require('mocha-jsdom');
 
 const { name, height, message } = require("../index.js");
 
